@@ -15,7 +15,7 @@ public class App2_8 {
         int negative_num = 0;
         int even_neg_sum = 0;
 
-        for (int i=0; i<len; i++) {
+        for (int i = len - 1; i >= 0; i--) {
             if (arr[i] >0) {
                 positive_sum += arr[i];
                 positive_num++;
